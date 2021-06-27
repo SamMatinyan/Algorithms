@@ -5,7 +5,7 @@
  
  TIME COMPLEXITY of Bubble Sort
  BEST     - O(n)
- AVERAGE  - O(n^2)                                                                                                     Time Complexity
+ AVERAGE  - O(n^2)
  WORST    - O(n^2)
  
  */
@@ -16,7 +16,7 @@ func bubble(arrToSort: inout [Int]) -> [Int] {
     
     guard arrToSort.count > 1 else {return arrToSort}
     
-    for i in 0..<arrToSort.count - 1 {     // Sra qanak@ misht havasar e MASIVI ELEMENTNERI QANAKIC HANAC 1
+    for i in 0..<arrToSort.count - 1 {
         for j in 1..<arrToSort.count - i {
             if arrToSort[j] < arrToSort[j-1] {
                 let ternary = arrToSort[j]
@@ -153,7 +153,7 @@ var am = [11,9,8,7,6,5]
 //MARK: - Insertion Sort
 //Insertion@ ena vor 1 in element@ @ndunuma arden sortavorvac u iranic heto elementner@ arden hamematuma ira het. Tenc dasavoruma arrayi dzax koxm@ sortavorac elementner@.Ete arden sortavorvacner@ mi qanisn en apa aji elementner@ hertov hamematuma minchev et elementi tex@ konkret gtni
 
-// HEST HISHELU DZEV------Hishi vor arrayi element@ vekaluma u depi dzax SAXI HET HAMEMATELOV iran dnum a IRA TEX@
+// HEST HISHELU DZEV ------ arrayi element@ vekaluma u depi dzax SAXI HET HAMEMATELOV iran dnum a IRA TEX@
 var amr = [8,3,5,4,6]
 //[8,3,5,4,6] x = 0
 //[3,8,5,4,6] x = 1
@@ -166,7 +166,7 @@ var amr = [8,3,5,4,6]
 
 TIME COMPLEXITY of Insertion Sort
 BEST     - O(n)
-AVERAGE  - O(n^2)                                                                                                     Time Complexity
+AVERAGE  - O(n^2)                                                                                    
 WORST    - O(n^2)
 
 */

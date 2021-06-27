@@ -18,7 +18,7 @@ var array = [8,3,5,6,4]
 /*
  TIME COMPLEXITY
  Best    - O(n log(n))
- Average - O(n log(n))                                                                                                     Time Complexity
+ Average - O(n log(n))
  Worst   - O(n log(n))      log(n)-@ e himqov log a(e ~ 2.7)
  
  */
@@ -49,7 +49,7 @@ func merge(left: [Int], right: [Int]) -> [Int] {
 
 
 //MARK: - Quick Sort---Sa lav hishelu hamar mi bar a petq hishel----> PIVOT <----QUICK SORT
-//STEP 1.  @ndhanur gaxapar@ ena vor arrayi mej nshanakenq PIVOT(orinak arrayi verjin element@) u array@ nenc sortavorenq vor PIVOT ic dzax        @nkac elementner@ linen PIVOT ic poqr isk PIVOT ic aj @nkac elementner@ linen PIVOT ic mec.
+//STEP 1.  @ndhanur gaxapar@ ena vor arrayi mej nshanakenq PIVOT(orinak arrayi verjin element@) u array@ nenc sortavorenq vor PIVOT ic dzax @nkac elementner@ linen PIVOT ic poqr isk PIVOT ic aj @nkac elementner@ linen PIVOT ic mec.
 //STEP 2. Recursiya-i mejocov PIVOT-ic dzax u aj @nkac arrayneri hamar enqan enq QUICK SORT anum(aysinqn amen meki hamar quick sort enq  kanchum) minchev irenq sortavorven
 /*
  TIME COMPLEXITY of  QUICK SORT

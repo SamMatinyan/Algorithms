@@ -1,6 +1,6 @@
 //MARK: - Linear Search ============================> Most Important<============================
 
-let arrayik = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+let tver = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 func findNumber(arr: [Int], x: Int) -> Int {
 
@@ -12,8 +12,8 @@ func findNumber(arr: [Int], x: Int) -> Int {
     return -1
 }
 
-findNumber(arr: arrayik, x: 5)
-findNumber(arr: arrayik, x: 11)
+findNumber(arr: tver, x: 5)
+findNumber(arr: tver, x: 11)
 
 //MARK: - Another type
 
@@ -108,4 +108,3 @@ func binarySearch(in numbers: [Int], for value: Int) -> Int?
 
 binarySearch(in: str, for: 15)
 
-//binarySearch(in: str, for: 18)
